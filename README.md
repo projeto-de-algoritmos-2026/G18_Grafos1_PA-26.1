@@ -10,24 +10,6 @@
 | 202063462 | Samuel Alves Silva  |
 
 ## Sobre 
-- 
-- 
-
-## Screenshots
-
-
-## Vídeo Explicativo
-
-
-## Instalação 
-**Linguagens**: 
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-### Informações sobre os desafios
-
 ## LeetCode — Exercícios selecionados
 
 Incluímos três problemas retirados do LeetCode (dois difíceis e um médio). Abaixo estão os links diretos, o código-fonte neste repositório e screenshots das submissões.
@@ -56,3 +38,4 @@ Explique como usar seu projeto caso haja algum passo a passo após o comando de 
 
 ## Outros 
 ### Informações sobre os desafios
+
