@@ -78,25 +78,6 @@ Digite 1 ou 2:
 
 ## Outros
 
-### Estrutura do projeto
-
-```
-labirinto/
-├── main.py        # Ponto de entrada e menu interativo
-├── maze.py        # Geração do labirinto (Recursive Backtracker)
-├── solver.py      # Algoritmos BFS e DFS
-└── visualizer.py  # Animação com matplotlib
-```
-
-### Legenda de cores da animação
-
-| Cor | Significado |
-|---|---|
-| Cinza claro | Célula livre (não visitada) |
-| Vermelho | Início `(0,0)` e fim `(N-1, N-1)` |
-| Azul claro | Célula explorada pelo algoritmo |
-| Amarelo | Caminho final encontrado |
-
 ### Comparativo BFS × DFS
 
 | | BFS | DFS |
