@@ -20,13 +20,15 @@ Incluímos três problemas retirados do LeetCode (dois difíceis e um médio). A
 		- [![problem-329](assets/329.png)](assets/329.png)
 		- [![submitted-329](assets/resolvido329.png)](assets/resolvido329.png)
 
-- **(Outro Problema Difícil)** — Substitua este placeholder com o nome e link do problema difícil.
+- **(Problema medio)** — Substitua este placeholder com o nome e link do problema medio.
 	- Código: `code/<arquivo>.py` (substituir)
 	- Screenshot: `assets/<imagem>.png` (substituir)
 
-- **(Problema de Nível Médio)** — Substitua este placeholder com o nome e link do problema médio.
-	- Código: `code/<arquivo>.py` (substituir)
-	- Screenshot: `assets/<imagem>.png` (substituir)
+- **[1377. Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds/)** — difícil
+	- Código: [1377.py](code/1377.py)
+	- Screenshots (clique para ampliar):
+		- [![problem-1377](assets/1377.png)](assets/1377.png)
+		- [![submitted-1377](assets/resolvido1377.png)](assets/resolvido1377.png)
 
 ## Vídeo Explicativo
 
