@@ -6,14 +6,23 @@ from visualizer import animate
 
 
 def main():
-    # Cria labirinto 20×20 com caminho garantido de (0,0) a (19,19)
-    labirinto = Maze(20, 20)
+    # ── Escolha do tamanho ─────────────────────────────────────────────────
+    print('\n=== Solucionador de Labirinto ===')
+    try:
+        n = int(input('Tamanho do labirinto (N×N, mínimo 5): ').strip())
+        if n < 5:
+            print('Tamanho mínimo é 5. Usando 5.')
+            n = 5
+    except ValueError:
+        print('Entrada inválida. Usando 20.')
+        n = 20
+
+    labirinto = Maze(n, n)
 
     inicio = (0, 0)
     fim    = (labirinto.rows - 1, labirinto.cols - 1)
 
     # ── Escolha do algoritmo ───────────────────────────────────────────────
-    print('\n=== Solucionador de Labirinto ===')
     print('Escolha o algoritmo de busca:')
     print('  1 → BFS  (Busca em Largura   — caminho mais curto garantido)')
     print('  2 → DFS  (Busca em Profundidade — explora fundo antes de retroceder)')
