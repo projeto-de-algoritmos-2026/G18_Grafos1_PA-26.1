@@ -20,6 +20,10 @@ O labirinto é gerado automaticamente pelo algoritmo **Recursive Backtracker** (
 
 A solução é exibida em uma **animação interativa** (matplotlib) em duas fases: primeiro a exploração se expande pelo labirinto em azul, depois o caminho final é destacado em amarelo.
 
+## Apresentação
+
+[![Apresentação em Vídeo](https://img.youtube.com/vi/dm4R9pXiVAU/0.jpg)](https://youtu.be/dm4R9pXiVAU)
+
 ## Screenshots
 
 | BFS — Exploração |
