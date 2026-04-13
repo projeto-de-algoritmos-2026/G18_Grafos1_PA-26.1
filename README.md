@@ -22,18 +22,9 @@ A solução é exibida em uma **animação interativa** (matplotlib) em duas fas
 
 ## Screenshots
 
-> **Prints necessários (tire na ordem abaixo ao rodar `python main.py`):**
->
-> 1. **Print 1** — Janela aberta no início da animação (labirinto todo cinza, só início/fim em vermelho).
-> 2. **Print 2** — Meio da fase de exploração (célula azul se expandindo pelo labirinto).
-> 3. **Print 3** — Animação concluída com o caminho final amarelo destacado.
-> 4. *(Opcional)* **Print 4** — Rodada com DFS para comparar o padrão de exploração diferente do BFS.
-
-<!-- Substitua os placeholders abaixo pelos prints tirados -->
-
 | BFS — Exploração | BFS — Caminho Final |
 |---|---|
-| ![exploração BFS](assets/bfs_exploracao.png) | ![caminho BFS](assets/bfs_caminho.png) |
+| ![exploração BFS](assets/bfs_caminho.png) | ![caminho BFS](assets/bfs_exploracao.png) |
 
 | DFS — Exploração |
 |---|
@@ -47,7 +38,7 @@ A solução é exibida em uma **animação interativa** (matplotlib) em duas fas
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/<seu-usuario>/Grafos1_Labirinto-BFS-DFS.git
+git clone https://github.com/Grafos1_Labirinto-BFS-DFS.git
 cd Grafos1_Labirinto-BFS-DFS/labirinto
 pip install matplotlib numpy
 ```
