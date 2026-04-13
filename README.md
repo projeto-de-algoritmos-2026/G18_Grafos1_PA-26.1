@@ -1,6 +1,6 @@
 # Grafos1_Labirinto-BFS-DFS
 
-**Número da Lista**: 1<br>
+**Número da Lista**: 18<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
@@ -22,9 +22,12 @@ A solução é exibida em uma **animação interativa** (matplotlib) em duas fas
 
 ## Screenshots
 
-| BFS — Exploração | BFS — Caminho Final |
+| BFS — Exploração |
 |---|---|
-| ![exploração BFS](assets/bfs_caminho.png) | ![caminho BFS](assets/bfs_exploracao.png) |
+| ![exploração BFS](assets/bfs_caminho.png) | 
+
+| BFS — Caminho Final 
+| ![caminho BFS](assets/bfs_exploracao.png) |
 
 | DFS — Exploração |
 |---|
@@ -38,8 +41,8 @@ A solução é exibida em uma **animação interativa** (matplotlib) em duas fas
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/Grafos1_Labirinto-BFS-DFS.git
-cd Grafos1_Labirinto-BFS-DFS/labirinto
+git clone https://github.com/projeto-de-algoritmos-2026/G18_Grafos1_PA-26.1.git
+cd G18_Grafos1_PA-26.1.git
 pip install matplotlib numpy
 ```
 
